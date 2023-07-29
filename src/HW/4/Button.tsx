@@ -1,5 +1,5 @@
 type ButtonPropsType = {
-  callBack: any // НУЖНО ПРОТИПИЗИРОВАТЬ
+  callBack: () => void // НУЖНО ПРОТИПИЗИРОВАТЬ
   name: any // НУЖНО ПРОТИПИЗИРОВАТЬ
 };
 
